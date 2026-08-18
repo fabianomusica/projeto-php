@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="recursos\CSS\estilo.css">
     <title>Curso PHP</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <h1>Curso de PHP</h1>
@@ -90,7 +91,6 @@
         </div>
     </main>
     <footer class="rodape">
-        2026
-    </footer>
+        <?= date('Y'); ?>
 </body>
 </html>
